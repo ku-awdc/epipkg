@@ -1,0 +1,58 @@
+---
+title: "epipkg"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{epipkg}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(epipkg)
+```
+
+## Steps to follow to create a package:
+
+### TODO!!!!
+
+Start on GitHub
+
+- Go to GitHub and create a repository
+
+- Choose an Owner, give it a name and write a short description
+
+- Choose public or private
+
+- Check "Add a README file"
+
+- Leave .gitignore template and License as "None"
+
+- Click "Create repository"
+
+Then install the epipkg from our drat repo, load the package, and create your R package template as follows:
+
+```{r eval=FALSE}
+## TODO!
+install.packages("epipkg", repos=...)
+library("epipkg")
+setwd("PATH TO WHERE YOU WANT YOUR GITHUB PACKAGE TO BE")
+create_epipkg("name")
+```
+
+
+## Explanation of what everything is in your new package
+
+### R
+
+### notebooks
+
+### tests
+
+### etc
